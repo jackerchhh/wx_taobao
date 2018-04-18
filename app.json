@@ -1,0 +1,52 @@
+{
+  "pages":[
+    "pages/index/index",
+    "pages/logs/logs",
+    "pages/more/more",
+    "pages/cart/cart",
+    "pages/myTaobao/myTaobao",
+    "pages/logistic/logistic",
+    "pages/others/others",
+    "pages/tmall/tmall",
+    "pages/juhuasuan/juhuasuan"
+  ],
+  "window":{
+    "backgroundTextStyle":"light",
+    "navigationBarBackgroundColor": "#FE5400",
+    "navigationBarTitleText": "淘宝",
+    "navigationBarTextStyle":"white"
+  },
+  "tabBar": {
+    "color": "black",
+    "borderStyle": "black",
+    "selectedColor": "#FE5400",
+    "backgroundColor": "white",
+    "list": [
+      {
+        "pagePath": "pages/index/index",
+        "iconPath":"images/index.png",
+        "text": "首页"
+      },
+      {
+        "pagePath": "pages/logistic/logistic",
+        "iconPath": "images/logistic.png",
+        "text": "物流"
+      },
+      {
+        "pagePath": "pages/cart/cart",
+        "iconPath": "images/cart.png",
+        "text": "购物车"
+      },
+      {
+        "pagePath": "pages/myTaobao/myTaobao",
+        "iconPath": "images/myTaobao.png",
+        "text": "我的淘宝"
+      },
+      {
+        "pagePath": "pages/more/more",
+        "iconPath": "images/more.png",
+        "text": "更多"
+      }
+    ]
+  }
+}

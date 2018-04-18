@@ -1,0 +1,7 @@
+<template name="userTemp">
+  <view class='user'>
+    <view>姓名: {{item.name}}</view>
+    <view>性别: {{item.sex}}</view>
+    <view>年龄: {{item.age}}</view>
+  </view>
+</template>

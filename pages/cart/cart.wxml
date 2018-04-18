@@ -1,0 +1,5 @@
+<!-- <template is="userTemp" data="{{item}}"/> -->
+<import src="../common/common.wxml"/>
+<view class='container'>
+    <text>购物车页面</text>
+</view>
